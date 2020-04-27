@@ -1,0 +1,35 @@
+21700557@peace:~/oss2020/minterm/project1-1$ make main
+gcc  -c books.c -o books.o
+gcc  -o main main.c books.o
+s21700557@peace:~/oss2020/minterm/project1-1$ ./main
+
+Menu : 1.Receive 2.Receive(file) 3.info 4.Search 5.List 6.Save 7.Report 8.Update_one 9.Update 10.Delete_one 11.Delete 12.Sort 13.Optimize 0.Quit > 1
+
+Enter a new book's info.
+Subject > 소나기
+Code > 140
+Page > 130
+Amount > 2
+Borrow > 1
+
+Menu : 1.Receive 2.Receive(file) 3.info 4.Search 5.List 6.Save 7.Report 8.Update_one 9.Update 10.Delete_one 11.Delete 12.Sort 13.Optimize 0.Quit > 3
+
+Enter a subject > 소나기
+Book info.
+[140] 소나기 (p.130) / amount : 2(1)
+
+	Menu : 1.Receive 2.Receive(file) 3.info 4.Search 5.List 6.Save 7.Report 8.Update_one 9.Update 10.Delete_one 11.Delete 12.Sort 13.Optimize 0.Quit > 9
+
+	Find Method (1.Subject 2.Code 3.Page 4.Amount 5.Borrow) > 1
+
+	Enter a subject > 소나기
+	[140] 소나기 (p.130) / amount : 2(1)
+	Update Subject > 비
+	Update Code > 30
+	Update Page > 104
+	Update Amount > 2
+	Update Borrow > 1
+
+	Menu : 1.Receive 2.Receive(file) 3.info 4.Search 5.List 6.Save 7.Report 8.Update_one 9.Update 10.Delete_one 11.Delete 12.Sort 13.Optimize 0.Quit >
+
+
